@@ -1,0 +1,144 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+button {
+    background-color: #3b5998;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 15px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+
+p {
+    margin: 10px 0 10px;
+}
+
+    button:hover {
+        opacity: 0.4;
+    }
+
+h1 {
+    font-family: sans-serif;
+    color: #3b5998;
+    position: relative;
+    text-align: center;
+}
+
+h4 {
+    font-family: sans-serif;
+    color: #3b5998;
+    position: relative;
+    text-align: center;
+}
+
+div.center {
+    text-align: center;
+}
+
+.imgcntnr {
+    text-align: center;
+    position: relative;
+}
+
+
+img.avatar {
+    width: 20%;
+}
+
+.container {
+    padding: 16px;
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+div.layout {
+    width: 80%;
+    margin: auto;
+    border-radius: 16px;
+    padding: 20px;
+    border-style: double;
+}
+
+div.reg {
+    width: 50%;
+    margin: auto;
+    border-radius: 16px;
+    padding: 20px;
+    border-style: double;
+}
