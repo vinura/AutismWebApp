@@ -20,9 +20,9 @@ namespace WebApplication2.Services
                 
 
 
-                const string apiKey = "BO8h87Fuy3L9nPVA5ITQGz1sUkXdBCiq37YNBclQa3nIqoBLvYzyFTj0rx4JAjzT6RnNtXXuXrXSILijnpyHZQ=="; // Replace this with the API key for the web service
+                const string apiKey = "YourAPIKEY"; // Replace this with the API key for the web service
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", apiKey);
-                client.BaseAddress = new Uri("https://ussouthcentral.services.azureml.net/workspaces/119366af52834f89a9a142bf053184c3/services/3a3bb3e8995449c6974cb84598a3f52d/execute?api-version=2.0&format=swagger");
+                client.BaseAddress = new Uri("YOURURLfromAZUREMLSTudio");
 
                 string msg = JsonConvert.SerializeObject(autismProfileData);
 
